@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 
-@media (min-width: 1200px) {
+@media (min-width: $viewportXLargeMin) {
 
   // Fixed grid
   @include grid-core($gridColumnWidthXLarge, $gridGutterWidthXLarge);
