@@ -269,22 +269,22 @@ $popoverArrowOuterColor:  rgba(0,0,0,.25);
 // --------------------------------------------------
 
 
-// Default 940px grid
-// -------------------------
+// Default 'large' grid (defaults to 940px)
+// ----------------------------------------
 $gridColumns:             12;
 $gridColumnWidth:         60px;
 $gridGutterWidth:         20px;
 $gridRowWidth:            ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1));
 
-// 1200px min
-$gridColumnWidth1200:     70px;
-$gridGutterWidth1200:     30px;
-$gridRowWidth1200:        ($gridColumns * $gridColumnWidth1200) + ($gridGutterWidth1200 * ($gridColumns - 1));
+// Extra large grid (defaults to 1200px)
+$gridColumnWidthXLarge:     70px;
+$gridGutterWidthXLarge:     30px;
+$gridRowWidthXLarge:        ($gridColumns * $gridColumnWidthXLarge) + ($gridGutterWidthXLarge * ($gridColumns - 1));
 
-// 768px-979px
-$gridColumnWidth768:      42px;
-$gridGutterWidth768:      20px;
-$gridRowWidth768:         ($gridColumns * $gridColumnWidth768) + ($gridGutterWidth768 * ($gridColumns - 1));
+// Medium grid (defaults to 768px-979px)
+$gridColumnWidthMedium:      42px;
+$gridGutterWidthMedium:      20px;
+$gridRowWidthMedium:         ($gridColumns * $gridColumnWidthMedium) + ($gridGutterWidthMedium * ($gridColumns - 1));
 
 
 // Fluid grid
@@ -292,10 +292,10 @@ $gridRowWidth768:         ($gridColumns * $gridColumnWidth768) + ($gridGutterWid
 $fluidGridColumnWidth:    percentage($gridColumnWidth/$gridRowWidth);
 $fluidGridGutterWidth:    percentage($gridGutterWidth/$gridRowWidth);
 
-// 1200px min
-$fluidGridColumnWidth1200:     percentage($gridColumnWidth1200/$gridRowWidth1200);
-$fluidGridGutterWidth1200:     percentage($gridGutterWidth1200/$gridRowWidth1200);
+// Extra large grid
+$fluidGridColumnWidthXLarge:     percentage($gridColumnWidthXLarge/$gridRowWidthXLarge);
+$fluidGridGutterWidthXLarge:     percentage($gridGutterWidthXLarge/$gridRowWidthXLarge);
 
-// 768px-979px
-$fluidGridColumnWidth768:      percentage($gridColumnWidth768/$gridRowWidth768);
-$fluidGridGutterWidth768:      percentage($gridGutterWidth768/$gridRowWidth768);
+// Medium grid
+$fluidGridColumnWidthMedium:      percentage($gridColumnWidthMedium/$gridRowWidthMedium);
+$fluidGridGutterWidthMedium:      percentage($gridGutterWidthMedium/$gridRowWidthMedium);

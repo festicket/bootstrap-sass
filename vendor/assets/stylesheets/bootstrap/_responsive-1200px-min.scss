@@ -6,20 +6,20 @@
 @media (min-width: 1200px) {
 
   // Fixed grid
-  @include grid-core($gridColumnWidth1200, $gridGutterWidth1200);
+  @include grid-core($gridColumnWidthXLarge, $gridGutterWidthXLarge);
 
   // Fluid grid
-  @include grid-fluid($fluidGridColumnWidth1200, $fluidGridGutterWidth1200);
+  @include grid-fluid($fluidGridColumnWidthXLarge, $fluidGridGutterWidthXLarge);
 
   // Input grid
-  @include grid-input($gridColumnWidth1200, $gridGutterWidth1200);
+  @include grid-input($gridColumnWidthXLarge, $gridGutterWidthXLarge);
 
   // Thumbnails
   .thumbnails {
-    margin-left: -$gridGutterWidth1200;
+    margin-left: -$gridGutterWidthXLarge;
   }
   .thumbnails > li {
-    margin-left: $gridGutterWidth1200;
+    margin-left: $gridGutterWidthXLarge;
   }
   .row-fluid .thumbnails {
     margin-left: 0;

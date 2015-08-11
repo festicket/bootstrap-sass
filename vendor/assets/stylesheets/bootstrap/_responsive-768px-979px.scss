@@ -6,13 +6,13 @@
 @media (min-width: 768px) and (max-width: 979px) {
 
   // Fixed grid
-  @include grid-core($gridColumnWidth768, $gridGutterWidth768);
+  @include grid-core($gridColumnWidthMedium, $gridGutterWidthMedium);
 
   // Fluid grid
-  @include grid-fluid($fluidGridColumnWidth768, $fluidGridGutterWidth768);
+  @include grid-fluid($fluidGridColumnWidthMedium, $fluidGridGutterWidthMedium);
 
   // Input grid
-  @include grid-input($gridColumnWidth768, $gridGutterWidth768);
+  @include grid-input($gridColumnWidthMedium, $gridGutterWidthMedium);
 
   // No need to reset .thumbnails here since it's the same $gridGutterWidth
 
